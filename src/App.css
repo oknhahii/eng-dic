@@ -1,0 +1,156 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 30%;	
+	margin: 0 auto;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h1 {
+	font-size: 36px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+
+#notFound{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 36px;
+}
+
+#word {
+	font-size: 48px;
+	font-weight: bold;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+#pronunciation {
+	font-size: 24px;
+	margin-bottom: 20px;
+	color: #666;
+}
+
+#meaning {
+	font-size: 24px;
+	margin-bottom: 40px;
+	line-height: 1.5;
+	color: #444;
+	text-align: justify;
+}
+
+#nextBtn {
+	padding: 10px 20px;
+	background-color: #0077FF;
+	color: #FFF;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+#nextBtn:hover {
+	background-color: #0066CC;
+}
+
+#add-block{
+	width: 100%;
+}
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="text"] {
+	padding: 8px;
+	border: 1px solid #999;
+	border-radius: 4px;
+	width: 100%;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+
+#addWordBtn {
+	padding: 10px 20px;
+	background-color: #0077FF;
+	color: #FFF;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	text-align: center !important
+}
+
+#addWordBtn:hover {
+	background-color: #0066CC;
+}
+
+.word-item{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.content{
+	width: 85%;
+}
+
+.edit-btn {
+	width: 10%;
+	padding: 8px 5px;
+	background-color: #0077FF;
+	color: #FFF;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+#word-list{
+	width: 100%;
+}
+
+ul {
+	list-style: none;
+	padding-right: 10px;
+	height: 28vh;
+	overflow-y: scroll;
+}
+
+li {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+
+#contest-btn{
+	position: absolute;
+	right: 5vw;
+	top: 5vh;	
+}
+
+.chart-container{
+	width: 90%;
+	height: 90%;
+	margin: auto;
+}
+
+#char-back-home{
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+#statistic-btn{
+	position: absolute;
+	left: 5vw;
+	top: 5vh;	
+}
